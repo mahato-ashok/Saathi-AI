@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+scikit-learn
+transformers
+torch
+pandas
+numpy
+pydantic[email]
+python-dotenv
+google-generativeai
+# Database
+sqlalchemy[asyncio]
+asyncpg
+alembic
+psycopg2-binary
+# Authentication
+python-jose[cryptography]
+passlib[bcrypt]

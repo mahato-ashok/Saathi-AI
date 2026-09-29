@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code editor settings
+.vscode/
+.idea/
+
+# Operating System generated junk
+.DS_Store
+Thumbs.db

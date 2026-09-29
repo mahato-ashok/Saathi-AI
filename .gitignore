@@ -1,0 +1,108 @@
+# ==========================================
+# Saathi AI Distress Monitoring - .gitignore
+# ==========================================
+
+# ------------------------------------------
+# Environment Variables & Secrets
+# ------------------------------------------
+.env
+.env.*
+*.env
+!.env.example
+!.env.template
+
+# ------------------------------------------
+# Python & Virtual Environments
+# ------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# Python bytecode & caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ------------------------------------------
+# Node.js & Frontend (Vite / React)
+# ------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------
+# Jupyter Notebooks
+# ------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ------------------------------------------
+# Databases & SQLite
+# ------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ------------------------------------------
+# Machine Learning / AI Model Artifacts
+# (Uncomment below if model weights are large or generated dynamically)
+# ------------------------------------------
+# *.pkl
+# *.joblib
+# *.h5
+# *.onnx
+# *.pt
+# *.pth
+
+# ------------------------------------------
+# IDE & Code Editor Files
+# ------------------------------------------
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ------------------------------------------
+# Operating System Files
+# ------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
